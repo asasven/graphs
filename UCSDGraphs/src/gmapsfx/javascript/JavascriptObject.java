@@ -15,12 +15,11 @@
  */
 package gmapsfx.javascript;
 
+import netscape.javascript.JSObject;
+
 import java.lang.reflect.Constructor;
 import java.util.Map;
 import java.util.WeakHashMap;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import netscape.javascript.JSObject;
 
 /**
  * Base class for any Google JavaScript object.

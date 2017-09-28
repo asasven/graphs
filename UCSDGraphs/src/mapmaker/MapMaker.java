@@ -1,9 +1,11 @@
 package mapmaker;
 
+import javax.json.JsonArray;
+import javax.json.JsonNumber;
+import javax.json.JsonObject;
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.List;
-import javax.json.*;
 
 public class MapMaker {
     float[] bounds;

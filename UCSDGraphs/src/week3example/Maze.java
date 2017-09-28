@@ -3,14 +3,7 @@
  */
 package week3example;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Queue;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * A class that represents a 2D maze, represented using a graph.  

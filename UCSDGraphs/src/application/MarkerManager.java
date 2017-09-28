@@ -6,20 +6,14 @@
 
 package application;
 
+import gmapsfx.javascript.event.UIEventType;
+import gmapsfx.javascript.object.*;
+import javafx.scene.control.Button;
+import netscape.javascript.JSObject;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
-
-import gmapsfx.javascript.event.UIEventType;
-import gmapsfx.javascript.object.Animation;
-import gmapsfx.javascript.object.GoogleMap;
-import gmapsfx.javascript.object.LatLong;
-import gmapsfx.javascript.object.Marker;
-import gmapsfx.javascript.object.MarkerOptions;
-import javafx.scene.control.Button;
-import gmapsfx.javascript.object.LatLongBounds;
-import netscape.javascript.JSObject;
 
 public class MarkerManager {
 

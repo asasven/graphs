@@ -1,13 +1,11 @@
 package basicgraph;
 
-import java.io.BufferedReader;
+import util.GraphLoader;
+
 import java.io.File;
-import java.io.FileReader;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import util.GraphLoader;
 
 /**
  * @author UCSD MOOC Development Team

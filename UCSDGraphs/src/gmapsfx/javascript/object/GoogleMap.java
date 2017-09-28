@@ -16,12 +16,7 @@
 package gmapsfx.javascript.object;
 
 import gmapsfx.javascript.JavascriptObject;
-import gmapsfx.javascript.event.EventHandlers;
-import gmapsfx.javascript.event.GFXEventHandler;
-import gmapsfx.javascript.event.MapStateEventType;
-import gmapsfx.javascript.event.StateEventHandler;
-import gmapsfx.javascript.event.UIEventHandler;
-import gmapsfx.javascript.event.UIEventType;
+import gmapsfx.javascript.event.*;
 import javafx.beans.property.IntegerProperty;
 import javafx.beans.property.ReadOnlyObjectProperty;
 import javafx.beans.property.ReadOnlyObjectWrapper;

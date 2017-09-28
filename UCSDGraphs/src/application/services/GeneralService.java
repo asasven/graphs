@@ -1,9 +1,5 @@
 package application.services;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Pattern;
-
 import application.DataSet;
 import application.MapApp;
 import application.MarkerManager;
@@ -17,6 +13,10 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import mapmaker.MapMaker;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
 
 // class for map and general application services (file IO, etc.)
 public class GeneralService {

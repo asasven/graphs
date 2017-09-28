@@ -1,30 +1,16 @@
 package application.controllers;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.FileReader;
-
-import com.sun.javafx.geom.Rectangle;
-
 import application.DataSet;
-import application.MapApp;
 import application.services.GeneralService;
 import application.services.RouteService;
-import gmapsfx.javascript.object.GoogleMap;
-import gmapsfx.javascript.object.LatLong;
-import gmapsfx.javascript.object.LatLongBounds;
 import javafx.scene.Node;
-import javafx.scene.control.Alert;
+import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
-import javafx.scene.control.Button;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.ContentDisplay;
-import javafx.scene.control.ListCell;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
 import javafx.util.Callback;
-import mapmaker.MapMaker;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class FetchController {
     private static final int ROW_COUNT = 5;

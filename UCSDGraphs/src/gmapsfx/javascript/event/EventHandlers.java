@@ -16,10 +16,11 @@
 
 package gmapsfx.javascript.event;
 
+import netscape.javascript.JSObject;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
-import netscape.javascript.JSObject;
 
 /** This object forms the bridge between Javascript events and the Java events.
  * <p>

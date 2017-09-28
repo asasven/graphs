@@ -6,20 +6,16 @@
 
 package application;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import gmapsfx.javascript.IJavascriptRuntime;
 import gmapsfx.javascript.JavascriptArray;
 import gmapsfx.javascript.JavascriptRuntime;
-import gmapsfx.javascript.object.GoogleMap;
 import gmapsfx.javascript.object.LatLong;
 import gmapsfx.javascript.object.LatLongBounds;
 import gmapsfx.javascript.object.Marker;
 import gmapsfx.javascript.object.MarkerOptions;
-import javafx.concurrent.Task;
-import javafx.scene.control.Button;
-import netscape.javascript.JSObject;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RouteVisualization {
 	List<geography.GeographicPoint> points;

@@ -1,11 +1,11 @@
 package application;
 
+import geography.GeographicPoint;
+import util.GraphLoader;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
-
-import geography.GeographicPoint;
-import util.GraphLoader;
 
 /**
  * Class to wrap the graph, current .map file map, and 

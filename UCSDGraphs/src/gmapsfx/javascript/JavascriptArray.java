@@ -16,9 +16,10 @@
 
 package gmapsfx.javascript;
 
+import netscape.javascript.JSObject;
+
 import java.util.HashMap;
 import java.util.Map;
-import netscape.javascript.JSObject;
 
 /** JavascriptObject implementation of an array.
  * <p>
